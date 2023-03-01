@@ -1,68 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous">
+        <link href="https://fonts.bunny.net/css?family=karla:400,700" rel="stylesheet" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Frontend Mentor | Single Price Grid Component</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <title>Frontend Mentor | Single Price Grid Component</title>
+    <body>
+        <main>
+            <section class="signle-price">
+                <div class="join-community">
+                    <h3 class="join-community__title">Join our community</h3>
+                    <p class="join-community__sub-title">
+                        <strong>30-day, hassle-free money back guarantee</strong>
+                    </p>
+                    <p class="join-community__paragraph">
+                        Gain access to our full library of tutorials along with expert code reviews.
+                        Perfect for any developers who are serious about honing their skills.
+                    </p>
+                </div>
+                <div class="signle-price__container">
+                    <div class="monthly-subscription">
+                        <h3 class="monthly-subscription__title">Monthly Subscription</h3>
+                        <p class="monthly-subscription__price">
+                            <strong class="monthly-subscription__price-number">&dollar;29</strong> per month
+                        </p>
+                        <p class="monthly-subscription__text">
+                            Full access for less than &dollar;1 a day
+                        </p>
+                        <button class="monthly-subscription__button">Sign Up</button>
+                    </div>
+                    <div class="why-us">
+                        <h3 class="why-us__title">Why Us</h3>
+                        <ul class="why-us__list">
+                            <li class="why-us__item">Tutorials by industry experts</li>
+                            <li class="why-us__item">Peer &amp; expert code review</li>
+                            <li class="why-us__item">Coding exercises</li>
+                            <li class="why-us__item">Access to our GitHub repos</li>
+                            <li class="why-us__item">Community forum</li>
+                            <li class="why-us__item">Flashcard decks</li>
+                            <li class="why-us__item">New videos every week</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-    <!-- FONTS CDN -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=karla:400,700" rel="stylesheet" />
-
-    <!-- RESET CSS -->
-    <link rel="stylesheet" href="./reset.css">
-
-    <!-- STYLE CSS -->
-    <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-
-    <section class="signle-price">
-        <article class="join-community">
-            <h3 class="join-community__title">Join our community</h3>
-            <p class="join-community__sub-title">
-                <strong>30-day, hassle-free money back guarantee</strong>
+        <footer>
+            <p class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
+                Coded by <a href="https://costincadeau.fr" target="_blank" rel="noopener noreferrer">Costin Cadeau</a>.
             </p>
-            <p class="join-community__paragraph">
-                Gain access to our full library of tutorials along with expert code reviews.
-                Perfect for any developers who are serious about honing their skills.
-            </p>
-        </article>
-        <div class="signle-price__container">
-            <article class="monthly-subscription">
-                <h3 class="monthly-subscription__title">Monthly Subscription</h3>
-                <p class="monthly-subscription__price">
-                    <strong class="monthly-subscription__price-number">&dollar;29</strong> per month
-                </p>
-                <p class="monthly-subscription__text">
-                    Full access for less than &dollar;1 a day
-                </p>
-                <button class="monthly-subscription__button">Sign Up</button>
-            </article>
-            <article class="why-us">
-                <h3 class="why-us__title">Why Us</h3>
-                <ul class="why-us__list">
-                    <li class="why-us__item">Tutorials by industry experts</li>
-                    <li class="why-us__item">Peer &amp; expert code review</li>
-                    <li class="why-us__item">Coding exercises</li>
-                    <li class="why-us__item">Access to our GitHub repos</li>
-                    <li class="why-us__item">Community forum</li>
-                    <li class="why-us__item">Flashcard decks</li>
-                    <li class="why-us__item">New videos every week</li>
-                </ul>
-            </article>
-        </div>
-    </section>
-
-    <footer>
-        <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="https://costincadeau.fr">Costin Cadeau</a>.
-        </p>
-    </footer>
-</body>
-
+        </footer>
+    </body>
 </html>
