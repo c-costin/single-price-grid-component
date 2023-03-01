@@ -25,16 +25,16 @@ Users should be able to:
 ### Screenshot
 
 #### *Mobile version :*
-![](./docs/screenshots/)
+![](./docs/screenshots/mobile.png)
 
 #### *Desktop version :*
-![](./docs/screenshots/)
+![](./docs/screenshots/desktop.png)
 
 
 ### Links
 
-- Live website: [Add live site URL here](https://your-live-site-url.com)
-- Repo Github: [Add solution URL here](https://your-solution-url.com)
+- Live website: [https://c-costin.github.io/single-price-grid-component/](https://c-costin.github.io/single-price-grid-component/)
+- Repo Github: [https://github.com/c-costin/single-price-grid-component](https://github.com/c-costin/single-price-grid-component)
 
 ## My process
 
